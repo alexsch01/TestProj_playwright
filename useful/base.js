@@ -1,8 +1,6 @@
 // @ts-check
 import { test } from '@playwright/test';
 
-test.describe.configure({ mode: 'serial' });
-
 /** @type {import('@playwright/test').Page} */
 let page;
 
