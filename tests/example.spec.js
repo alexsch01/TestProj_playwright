@@ -2,15 +2,14 @@
 import { test, expect } from '@playwright/test'
 import { page } from '../useful/base'
 
-test('goto', async () => {
+test('goto - will pass', async () => {
   await page.goto("https://www.google.com")
 })
 
-test('toHaveTitle', async () => {
+test('toHaveTitle - will fail', async () => {
   await expect(page).toHaveTitle("Hahaha")
 })
 
-test('will pass', async () => {
-  await page.waitForTimeout(200)
-  await page.pause()
+test('toHaveTitle - should pass', async () => {
+  await expect(page).toHaveTitle("Google")
 })
