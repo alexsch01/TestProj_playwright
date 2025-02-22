@@ -1,5 +1,4 @@
 // @ts-check
-
 import { test, expect } from '@playwright/test'
 import { page } from '../useful/base'
 
