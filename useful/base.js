@@ -6,7 +6,7 @@ test.describe.configure({ mode: 'serial' });
 /** @type {import('@playwright/test').Page} */
 let page;
 
-test.beforeAll(async ({ browser }) {
+test.beforeAll(async ({ browser }) => {
   page = await browser.newPage();
 })
 
