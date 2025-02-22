@@ -12,3 +12,4 @@ cd TestProj_playwright
 
 [wait until `npm run watch` is done compiling]
 npx playwright test --headed
+```
