@@ -10,5 +10,5 @@ npm run watch
 git clone https://github.com/alexsch01/TestProj_playwright
 cd TestProj_playwright
 
-[wait until **npm run watch** is done compiling]
+[wait until `npm run watch` is done compiling]
 npx playwright test --headed
